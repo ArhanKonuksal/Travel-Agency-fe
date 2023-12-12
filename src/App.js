@@ -12,7 +12,6 @@ function App() {
     <h1>Error...</h1>;
   }
 
-  console.log(usersResponse);
   const { users } = usersResponse;
   return (
     <div className="App">
@@ -23,7 +22,7 @@ function App() {
             <th>Last Name</th>
             <th>Email</th>
           </tr>
-          {users.map((user, index) => {
+          {users?.map((user, index) => {
             return (
               <tr key={index}>
                 <td>{user.firstName}</td>
