@@ -1,5 +1,6 @@
-const users = {
+const user = {
+  login: () => `/login`,
   getUsers: () => `/users`,
 };
 
-export { users };
+export { user };

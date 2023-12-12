@@ -3,35 +3,35 @@ import baseRequest from "./baseRequest";
 function get(url, options = {}) {
   return baseRequest(url, {
     ...options,
-    method: "get"
+    method: "get",
   });
 }
 
 function post(url, options = {}) {
   return baseRequest(url, {
     ...options,
-    method: "post"
+    method: "post",
   });
 }
 
 function del(url, options = {}) {
   return baseRequest(url, {
     ...options,
-    method: "delete"
+    method: "delete",
   });
 }
 
 function put(url, options = {}) {
   return baseRequest(url, {
     ...options,
-    method: "put"
+    method: "put",
   });
 }
 
 function patch(url, options = {}) {
   return baseRequest(url, {
     ...options,
-    method: "patch"
+    method: "patch",
   });
 }
 
@@ -40,7 +40,7 @@ const http = {
   put,
   post,
   delete: del,
-  patch
+  patch,
 };
 
 export default http;

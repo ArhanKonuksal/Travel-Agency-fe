@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import getUsers from "../src/services/getUsers";
+import useAPI from "../src/effects/useAPI";
 
 function App() {
+  const [usersLoading, usersError, usersResponse] = useAPI(() => getUsers());
+
+  if (usersLoading) {
+    <h1>Loading...</h1>;
+  }
+  if (usersError) {
+    <h1>Error...</h1>;
+  }
+
+  console.log(usersResponse);
+  const { users } = usersResponse;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <table>
+        <tbody>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+          </tr>
+          {users.map((user, index) => {
+            return (
+              <tr key={index}>
+                <td>{user.firstName}</td>
+                <td>{user.lastName}</td>
+                <td>{user.email}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
     </div>
   );
 }
