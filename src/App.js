@@ -1,5 +1,4 @@
 import "./index.css";
-import Navbar from "./components/Navbar";
 import {Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import Inclusive from "./routes/Inclusive";
@@ -18,7 +17,6 @@ export default function App() {
             
             </Routes>
 
-           <Navbar/>
          
         </div>
     )
