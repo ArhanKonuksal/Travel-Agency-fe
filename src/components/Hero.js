@@ -1,20 +1,16 @@
-import assets from '../assets/12.jpg'
 import "./HeroStyles.css";
 
-function Hero() {
-   const heroImage = require('../assets/12.jpg');
-  return (
-    <>
-      <div className="hero">
-        <img
-          alt="HeroImg"
-          src={heroImage}
-        />
+function Hero(props) {
+  return (<>
+  <div className={props.cName}>
+    <img alt="HeroImg"src={props.heroImg}/>
+
+    
         <div className="hero-text">
-            <h1>Your Journey Your Story</h1>
-            <p>Explore the world of travel with us and discover new horizons.</p>
-            <a href="/">
-                Travel Plan
+            <h1>{props.title}</h1>
+            <p>{props.text}</p>
+            <a href={props.url} className={props.btnClass}>
+                {props.buttonText}
             </a>
         </div>
       </div>

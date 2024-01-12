@@ -1,8 +1,13 @@
-function Contact(){
-    return(
-        <>
-        <h1>This is Contact</h1>
-        </>
-    )
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import ContactImg from "../assets/2.jpg";
+
+function Contact() {
+  return (
+    <>
+      <Navbar />
+      <Hero cName="hero-mid" heroImg={ContactImg} title="Contact" />
+    </>
+  );
 }
 export default Contact;
