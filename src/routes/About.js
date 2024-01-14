@@ -38,7 +38,7 @@ function About (){
         <TripData
     image={Zihni}
     heading="Zihni Güçlü"
-    text="Zihni Guclu: Hi my name is Zihni I the least helper at this project lol"
+    text="Zihni Guclu: Hi my name is Zihni i am 32 years old and i am a junior full-stack developer. I had great fun helping making this project. Thank you to my team"
         />
         </div>
     </div>

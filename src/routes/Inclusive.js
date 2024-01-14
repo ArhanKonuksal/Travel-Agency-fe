@@ -47,8 +47,7 @@ function Inclusive() {
   <TripData 
   image={Trip4}
   heading="Bali, Indonesia"
-  text="Explore Tokyo's captivating blend of tradition and innovation. From the iconic scramble crossing in Shibuya to the tranquil beauty of Ueno Park, immerse yourself in Japan's rich heritage. Indulge in diverse culinary delights, from savory ramen to exquisite sushi, ensuring an unforgettable journey through Tokyo's unique cultural tapestry.
-  As the neon lights of Akihabara beckon, Tokyo's vibrant energy invites you to delve deeper into a city where ancient traditions coexist with the pulsating rhythm of modern life."
+  text="Welcome to Bali, a captivating blend of tropical beauty and rich cultural tapestry. Known as the Island of Gods, Bali invites you to explore its pristine beaches, where golden sands meet azure waters, and ancient temples like Uluwatu and Tanah Lot stand as testaments to its spiritual heritage. In Ubud, the cultural heart of Bali, immerse yourself in lush rice terraces and vibrant arts scenes. Culinary delights await, from sizzling satay to the iconic Babi Guling, and the island's wellness offerings, from world-class spas to yoga retreats, promise rejuvenation. Whether you seek adventure in underwater realms, legendary surf breaks, or the summit of Mount Batur, Bali promises an unforgettable journey where every moment is infused with beauty, spirituality, and the island's unique magic"
   days="21 days"
   price="1600$"
       />
