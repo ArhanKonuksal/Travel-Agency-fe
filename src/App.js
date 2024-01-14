@@ -4,6 +4,7 @@ import Home from "./routes/Home";
 import Inclusive from "./routes/Inclusive";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
+import SignUp from "./routes/SignUp";
 
 
 export default function App() {
@@ -14,10 +15,10 @@ export default function App() {
                 <Route path="/inclusive" element={<Inclusive/>}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path="/contact" element={<Contact/>}/>
-            
+                <Route path="/signup" element={<SignUp/>}/>
             </Routes>
 
-         
+        
         </div>
     )
 }

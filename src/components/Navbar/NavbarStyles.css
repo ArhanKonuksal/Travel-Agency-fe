@@ -49,11 +49,6 @@
   display: none;
 }
 
-button:hover {
-  background-color: #151516;
-  color: #fff;
-}
-
 .menu-icons{
   display: none;
 }
@@ -96,11 +91,6 @@ button:hover {
    .nav-links:hover{
     background: #dfc11a;
     transition: none;
-   }
-
-   button{
-    display: none;
-
    }
 
    .nav-links-mobile {
