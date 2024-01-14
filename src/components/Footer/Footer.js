@@ -10,18 +10,10 @@ const Footer = () => {
                     <p>Choose your Favourite Destination</p>
                 </div>
                 <div>
-                    <a href="/">
-                        <i className="fa-brands fa-facebook-square"></i>
-                    </a>
-                    <a href="/">
-                        <i className="fa-brands fa-instagram-square"></i>
-                    </a>
-                    <a href="/">
-                        <i className="fa-brands fa-behance-square"></i>
-                    </a>
-                    <a href="/">
-                        <i className="fa-brands fa-twitter-square"></i>
-                    </a>
+                    <a href="/"><i className="fa-brands fa-facebook-square"></i></a>
+                    <a href="/"><i className="fa-brands fa-instagram-square"></i></a>
+                    <a href="/"><i className="fa-brands fa-behance-square"></i></a>
+                    <a href="/"><i className="fa-brands fa-twitter-square"></i></a>
                 </div>
 
             </div>

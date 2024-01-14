@@ -21,7 +21,7 @@ function About (){
     />
     <AboutUs />
     <div className="trip">
-    <h1>All over the World</h1>
+    <h1>People who contributed at the project</h1>
     <p>We are the builder of the project</p>
     <div className="tripcard">
     <TripData
